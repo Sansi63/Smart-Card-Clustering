@@ -1,57 +1,37 @@
-### Customer Segmentation Using K-Means Clustering
-1. Project Overview
+# Customer Segmentation Using K-Means and Agglomerative Clustering
+##1. Project Overview
 
 This project performs customer segmentation using K-Means clustering to group customers based on income, spending behavior, purchasing patterns, and demographics.
-
 The objective is to identify distinct customer segments to support:
+*Targeted marketing strategies
+*Customer retention improvement
+*Revenue maximization
+*Personalized campaign design
 
-Targeted marketing strategies
-
-Customer retention improvement
-
-Revenue maximization
-
-Personalized campaign design
-
-2. Dataset Description
+##2. Dataset Description
 
 The dataset contains customer demographic, behavioral, and campaign response features.
+*Demographic Variables
+*Income – Annual income
+*Age – Customer age
+*Marital Status – Married / Single
+*Education Level – Undergraduate / Graduate / Postgraduate
+*Total_Children – Number of children
+*Behavioral Variables
+*Recency – Days since last purchase
+*NumDealsPurchases – Purchases made using discounts
+*NumWebPurchases – Online purchases
+*NumCatalogPurchases – Catalog purchases
+*NumStorePurchases – In-store purchases
+*NumWebVisitsMonth – Website visits per month
+*Complain – Complaint indicator (0/1)
+*Response – Campaign response indicator (0/1)
 
-Demographic Variables
-
-Income – Annual income
-
-Age – Customer age
-
-Marital Status – Married / Single
-
-Education Level – Undergraduate / Graduate / Postgraduate
-
-Total_Children – Number of children
-
-Behavioral Variables
-
-Recency – Days since last purchase
-
-NumDealsPurchases – Purchases made using discounts
-
-NumWebPurchases – Online purchases
-
-NumCatalogPurchases – Catalog purchases
-
-NumStorePurchases – In-store purchases
-
-NumWebVisitsMonth – Website visits per month
-
-Complain – Complaint indicator (0/1)
-
-Response – Campaign response indicator (0/1)
-
-Engineered Feature
+##Engineered Feature
 
 Total_Spending – Total amount spent by the customer
 
-3. Data Preprocessing
+##3. Data Preprocessing
 
 Handled missing values
 
